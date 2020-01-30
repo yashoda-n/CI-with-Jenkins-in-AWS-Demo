@@ -50,4 +50,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>internal releases</name>
+            <url>http://35.200.209.206:8081/nexus/content/repositories/Sprint2Release/</url>
+        </repository>
+     </distributionManagement>
 </project>
